@@ -1,0 +1,13 @@
+.block {
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

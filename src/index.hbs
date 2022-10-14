@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Nevatrip — Тестовое задание</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      {{> "./templates/header.hbs" activePage="Главная"}}
+      <main class="main">
+        <section class="contents">
+          <div class="contents__container container">
+            <h1 class="contents__title title">nevatrip</h1>
+            <p class="contents__subtitle subtitle">Тестовое задание</p>
+            <h2 class="contents__table-title">JS</h2>
+            <section class="contents__block">
+              <ul class="contents__list">
+                <li class="contents__item"><a
+                    href="./tickets.html"
+                    class="contents__link"
+                  >Билеты</a></li>
+                <li class="contents__item"><a
+                    href="./Маршрут"
+                    class="contents__link"
+                  >Маршрут</a></li>
+              </ul>
+            </section>
+            <section class="contents__block">
+              <h2 class="contents__table-title">Верстка</h2>
+              <ul class="contents__list">
+                <li class="contents__item"><a
+                    href="./block.html"
+                    class="contents__link"
+                  >Блок</a></li>
+                <li class="contents__item"><a
+                    href="./table.html"
+                    class="contents__link"
+                  >Таблица</a></li>
+              </ul>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+</html>

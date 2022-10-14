@@ -1,0 +1,8 @@
+<a
+  {{#if
+  (eq
+  text
+  activePage)}}{{else}}href="{{href}}"
+  {{/if}}
+  class="menu__link {{#if (eq text activePage)}} menu__link--active {{/if}}"
+>{{text}}</a>

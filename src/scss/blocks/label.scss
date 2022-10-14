@@ -1,0 +1,21 @@
+.label {
+  z-index: 10;
+  background: #099ce8;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 13px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 12px;
+
+  &--violet {
+    background: #7553ff;
+  }
+
+  &--yellow {
+    background: $yellow;
+    color: #323232;
+  }
+}

@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin-right: 10px;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+
+  &__selects-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__select {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+  &__button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
+}

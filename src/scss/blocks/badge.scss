@@ -1,0 +1,16 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background: #d9e8ff;
+  padding: 2px 12px;
+  color: #343434;
+  line-height: 20px;
+  border-radius: 11px;
+  height: 24px;
+
+  @include lg {
+    font-size: 16px;
+    padding: 4px 14px;
+    height: 28px;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Nevatrip — Маршрут</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      {{> "./templates/header.hbs" activePage="Маршрут"}}
+      <main class="main">
+        <section class="route">
+          <div class="route__container container">
+            <h1 class="route__title title">Маршрут</h1>
+            <div class="route__block">
+              <form
+                class="route__form form"
+                name="form-route"
+              >
+                <div class="form__block">
+                  <label
+                    class="form__label"
+                    for="route"
+                  >Выберите маршрут</label>
+                  <select
+                    class="form__select select"
+                    name="route"
+                  >
+                    <option value="из A в B">из A в B</option>
+                    <option value="из B в A">из B в A</option>
+                    <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+                  </select>
+                </div>
+                <div class="form__block">
+                  <label class="form__label">Выберите время</label>
+                  <div class="form__selects-group">
+                    <select
+                      class="form__select select"
+                      name="time-ab"
+                    >
+                    </select>
+                    <select
+                      class="form__select select visually-hidden"
+                      name="time-ba"
+                    >
+                    </select>
+                  </div>
+                </div>
+                <div class="form__bottom">
+                  <div class="form__block">
+                    <label
+                      class="form__label"
+                      for="num"
+                    >Количество билетов</label>
+                    <input
+                      class="form__input input"
+                      name="num"
+                      type="number"
+                      required="true"
+                      min="1"
+                      value="1"
+                    >
+                  </div>
+                  <button
+                    class="form__button button"
+                    name="button"
+                  >Посчитать
+                  </button>
+                </div class="form__bottom">
+              </form>
+              <div class="route__result"></div>
+            </div class="route__block">
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+</html>

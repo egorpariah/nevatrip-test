@@ -1,0 +1,25 @@
+// variables
+$baseFontSize: 14px;
+
+//breakpoins
+$smWidth: 576px;
+$mdWidth: 768px;
+$lgWidth: 992px;
+$xlWidth: 1200px;
+
+// colors
+$darkGray: #312d2d;
+$gray: #777777;
+$lightGray: #cccccc;
+$blue: #49aada;
+$yellow: #ffd84a;
+
+//media
+@import 'media';
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import 'base';
+
+// blocks
+@import 'blocks/*.scss';

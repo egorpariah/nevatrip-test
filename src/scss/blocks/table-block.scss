@@ -1,0 +1,34 @@
+.table-block {
+  &__title {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $lightGray;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    max-width: 640px;
+  }
+
+  &__image {
+    margin-bottom: 20px;
+    border: 1px solid $blue;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__overflow {
+    overflow-y: auto;
+  }
+
+  &__table {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+}

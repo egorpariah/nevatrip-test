@@ -1,0 +1,40 @@
+.contents {
+  &__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__subtitle {
+    margin-bottom: 40px;
+  }
+
+  &__block {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__table-title {
+    color: $blue;
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}

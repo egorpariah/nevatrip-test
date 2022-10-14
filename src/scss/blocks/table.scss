@@ -1,0 +1,20 @@
+.table {
+  &__caption {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    color: $blue;
+  }
+
+  &__cell {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid $lightGray;
+    color: $gray;
+
+    &--head {
+      color: $darkGray;
+    }
+  }
+}

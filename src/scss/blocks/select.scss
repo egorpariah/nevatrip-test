@@ -1,0 +1,17 @@
+.select {
+  height: 50px;
+  border-radius: 30px;
+  padding: 6px 25px;
+  font-size: inherit;
+  border: 1px solid $lightGray;
+  color: inherit;
+  outline: none;
+
+  background: url('../icons/arrow-down.svg') no-repeat;
+  background-position: right 15px center;
+  background-size: 24px 12px;
+  padding-right: 50px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}

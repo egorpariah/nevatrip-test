@@ -1,0 +1,23 @@
+.route {
+  &__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__form {
+    width: 480px;
+  }
+
+  &__result {
+    width: 480px;
+  }
+}
