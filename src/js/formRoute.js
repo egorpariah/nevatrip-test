@@ -19,7 +19,6 @@ export default class FormRoute {
     });
     this.form.elements['time-ab'].addEventListener('change', () => {
       this.filterBASchedule();
-      console.log(this.calculateRouteTime());
     });
     this.form.elements.button.addEventListener('click', (e) => {
       e.preventDefault();
